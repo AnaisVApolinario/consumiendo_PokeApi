@@ -1,0 +1,32 @@
+// .custom-background {
+//   --background: url('../../assets/fondo_pokemon.png') 0 0/cover no-repeat;
+// }
+.welcome-content{
+  --background: url('../../assets/fondo_pokemon.png') 0 0/100% 100% no-repeat;
+  height: calc(100vh - 56px);
+}
+ion-toolbar {
+  --background: #ef5350; /* Cambiar el color de fondo a rojo */
+  display: flex;
+  justify-content: center;
+}
+.title{
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 24px;
+}
+ion-button{
+  --background: #3A98B9;
+  font-family: 'Sono', sans-serif;
+  font-weight: bold;
+}
+
+.my-text {
+  font-family: 'Sono', sans-serif;
+  max-width: 75ch;
+  color:#576e88;
+  font-weight: bold;
+  letter-spacing:2px;
+}

@@ -1,27 +1,25 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-toolbar{
+  --background: #ef5350;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+button .item-native{
+  width:100%;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-avatar{
+  img{
+    width:300px;
+  }
 }
-
-#container a {
-  text-decoration: none;
+.item-button{
+  border:none;
+  // transition: transform .1s; 
+}
+// .item-button:hover{
+//   transform: scale(1.5);
+// }
+.title{
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
 }

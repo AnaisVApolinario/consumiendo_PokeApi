@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title ion-text-center ion-text-capitalize">{{'Pokémon'+' '+pokemonDetails?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeMd="4" offsetMd="4">
+        <ion-card class="ion-text-center ion-padding-top center">
+          <ion-avatar>
+            <img alt="{{pokemonDetails?.name}}" src="{{pokemonDetails?.sprites.front_default}}" />
+          </ion-avatar>
+          <ion-card-header>
+            <ion-card-title class="ion-text-uppercase">{{pokemonDetails?.name}}</ion-card-title>
+            <ion-card-subtitle class="ion-text-capitalize">{{'Tipos:'+' '+ pokemonTypes}}</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content class="ion-padding-rigth">
+            <div class="contentHeiWei">
+              <span>
+                {{'Altura:'+' '+pokemonDetails?.height}}
+              </span>
+              <span>
+                {{'Peso:'+' '+pokemonDetails?.weight}}
+              </span>
+            </div>
+            <span>
+              {{'Experiencia Base:'+' '+pokemonDetails?.base_experience}}
+            </span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

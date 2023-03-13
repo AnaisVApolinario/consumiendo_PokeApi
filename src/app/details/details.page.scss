@@ -1,0 +1,30 @@
+ion-avatar{
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+ion-avatar img{
+  width: 300px;
+}
+
+ion-toolbar{
+  --background: #ef5350;
+}
+.contentHeiWei{
+  display: flex;
+  justify-content: space-around;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  --background: #86C8BC;
+  color:#000;
+}
+
+.title{
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
